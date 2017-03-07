@@ -1,0 +1,13 @@
+clear all
+clf
+hold on
+y(1)=69;
+k=0.00027;
+M=1200;
+m=70
+for n=1:20
+	y(n+1)=y(n)+k*(y(n) - m)*(M - y(n));
+	end
+
+t=0:20;
+plot(t,y)

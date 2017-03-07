@@ -1,0 +1,59 @@
+public class Recursive{
+	static double modifier = 0.0;
+	public static void addScalar(Node node, Integer scalar){
+		if(node != null){ // Do a check
+			node.setValue(node.getValue() + scalar + modifier);
+			modifier++;
+			if(node.getNextNode() != null)
+				addScalar(node.getNextNode(), scalar);
+		}
+		else
+			modifier = 0;
+		// Consider resetting the modifier once we get here.
+	}
+
+	public static double sum(Node node){
+		double val = 0;
+		if(node != null){ // Do a check
+			val += node.getValue();
+			if(node.getNextNode() != null)		// WTF
+				val += sum(node.getNextNode());
+		}
+		return val;
+		// Consider resetting the sum when we get here.
+	}
+
+	public static void mergeSomeNodes(Node node){
+		if( node != null ){
+			if(isNextLarger(node)){
+				Node newNode = node;
+				Node oldNode = node;
+				while(isNextLarger(newNode)){
+					oldNode = newNode;
+					newNode = newNode.getNextNode();
+				}
+				if(oldNode != null && newNode != null)
+					oldNode.setNextNode(newNode.getNextNode());
+				double temp = 0;
+				if(newNode != null)
+					temp = newNode.getValue();
+				node.setValue(node.getValue() + temp);
+				mergeSomeNodes(node.getNextNode());
+			}
+			else if ( node != null && node.getNextNode() != null )
+				mergeSomeNodes(node.getNextNode());
+			else mergeSomeNodes(null);
+		}
+	}
+
+	public static Boolean isNextLarger(Node node){ // Seems to work.
+		if(node != null){
+			if(node.getNextNode() != null){
+				return node.getNextNode().getValue() > node.getValue();
+			}
+			else
+				return false;
+		}
+		return false;
+	}
+}

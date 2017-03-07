@@ -1,0 +1,19 @@
+body{
+	background-color: #272822;
+	color: #FD971F;
+	font-family: "Droid Sans Mono";
+	font-size: 20px;
+}
+h1{
+	background-color: #272822;
+	color: #F92672;
+	text-decoration: underline;
+	font-family: "Droid Sans Mono";
+	font-size: 24px;
+}
+p1{
+	background-color: #272822;
+	color: #FD971F;
+	font-family: "Droid Sans Mono";
+	font-size: 20px;
+}

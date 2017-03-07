@@ -1,0 +1,4 @@
+ H = (2) 
+ T = (1) 
+ (2, next = 1, prev = null) 
+ (1, next = null, prev = 2) 
