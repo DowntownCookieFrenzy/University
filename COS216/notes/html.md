@@ -3,7 +3,7 @@
 @Date:   2017-03-07T21:54:35+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-07T22:05:44+02:00
+@Last modified time: 2017-03-07T22:16:17+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -123,13 +123,8 @@ Hypertext Markup Language
 </form>
 ```
 Which will render:
-<label for="male">Male</label>
-<input type="radio" name="gender" id="male" value="male"><br>
-<label for="female">Female</label>
-<input type="radio" name="gender" id="female" value="female"><br>
-<label for="other">Other</label>
-<input type="radio" name="gender" id="other" value="other"><br><br>
-<input type="submit" value="Submit">
+
+![html render](/COS216/notes/images/htmlrender1.jpg)
 
 # Math
 This is a HTML5 Standard
@@ -143,3 +138,16 @@ This is a HTML5 Standard
   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
 </svg>
 ```
+
+# Specificity
+![Specificity1](/COS216/notes/images/specificity1.jpg)
+
+- If the element has inline styling, that automatically1 wins (1,0,0,0 points)
+- For each ID value, apply 0,1,0,0 points
+- For each class value (or pseudo-class or attribute selector), apply 0,0,1,0 points
+- For each element reference, apply 0,0,0,1 point
+
+You can generally read the values as if they were just a number, like 1,0,0,0 is "1000", and so clearly wins over a specificity of 0,1,0,0 or "100".
+
+#### Example
+![Specificity1](/COS216/notes/images/specificity2.jpg)
