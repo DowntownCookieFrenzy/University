@@ -3,7 +3,7 @@
 @Date:   2017-03-07T23:09:50+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-07T23:20:33+02:00
+@Last modified time: 2017-03-07T23:21:55+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -37,7 +37,11 @@
 
 Steps in creating a server using ```C``` sockets.
 1. Create a socket using socket()
+
 2. Bind the socket to an address (port number and host) with bind()
+
 3. Use listen() for a connection
+
 4. Accept a connection with accept() which blocks until the client connects to the server.
+
 5. Send and receive data
