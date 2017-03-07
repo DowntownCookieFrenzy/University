@@ -7,3 +7,7 @@ A repository containing work we do for the University Of Pretoria.
 * [GLY155](/GLY155/)
 * [INL240](/INL240/)
 * [WTW152](/WTW152/)
+
+## Licence
+[![Licence](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
