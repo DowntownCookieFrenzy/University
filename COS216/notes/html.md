@@ -3,7 +3,7 @@
 @Date:   2017-03-07T21:54:35+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-07T22:22:55+02:00
+@Last modified time: 2017-03-07T22:25:42+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -186,3 +186,4 @@ You can generally read the values as if they were just a number, like 1,0,0,0 is
 
 # References
 https://css-tricks.com/specifics-on-css-specificity/
+https://learnxinyminutes.com/docs/html/
