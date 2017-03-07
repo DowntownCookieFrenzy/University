@@ -3,7 +3,7 @@
 @Date:   2017-03-07T21:54:35+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-07T22:16:17+02:00
+@Last modified time: 2017-03-07T22:22:55+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -139,6 +139,38 @@ This is a HTML5 Standard
 </svg>
 ```
 
+# Audio with controls
+```html
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+```
+
+# Advanced tables
+```html
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sum: $180</td>
+  </tr>
+</table>
+```
+Which renders:
+![Specificity1](/COS216/notes/images/advancedtables1.jpg)
+
 # Specificity
 ![Specificity1](/COS216/notes/images/specificity1.jpg)
 
@@ -151,3 +183,6 @@ You can generally read the values as if they were just a number, like 1,0,0,0 is
 
 #### Example
 ![Specificity1](/COS216/notes/images/specificity2.jpg)
+
+# References
+https://css-tricks.com/specifics-on-css-specificity/
