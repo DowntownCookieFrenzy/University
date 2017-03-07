@@ -3,7 +3,7 @@
 @Date:   2017-03-07T22:24:14+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-07T22:25:22+02:00
+@Last modified time: 2017-03-07T22:29:35+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -13,6 +13,7 @@ Unlike HTML, XML does not specify how to display or to format data, it just carr
 Distinctions are made between the content and the markup. In short, content could be anything, markup is defined.
 
 # X in Y minutes
+#### Quick overview.
 ```xml
 <!-- This is a comment. It must not contain two consecutive hyphens (-). -->
 <!-- Comments can span
@@ -59,6 +60,86 @@ Distinctions are made between the content and the markup. In short, content coul
 </child>
 <!-- is not the same as -->
 <child>Text</child>
+```
+Note that this is not well-formed XML.
+
+# XML Document
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is called an XML prolog. Optional, but recommended. -->
+<bookstore>
+  <book category="COOKING">
+    <title lang="en">Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+  <book category="CHILDREN">
+    <title lang="en">Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+  <book category="WEB">
+    <title lang="en">Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+  </book>
+</bookstore>
+```
+
+# Well-formedness and Validation
+A XML document is well-formed if it is syntactically correct. However, it is possible to add more constraints to the document, using Document Type Definitions (DTDs). A document whose elements are attributes are declared in a DTD and which follows the grammar specified in that DTD is called valid with respect to that DTD, in addition to being well-formed.
+
+```xml
+<!-- Declaring a DTD externally: -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore SYSTEM "Bookstore.dtd">
+<!-- Declares that bookstore is our root element and 'Bookstore.dtd' is the path
+  to our DTD file. -->
+<bookstore>
+  <book category="COOKING">
+    <title lang="en">Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+</bookstore>
+
+<!-- The DTD file: -->
+<!ELEMENT bookstore (book+)>
+<!-- The bookstore element may contain one or more child book elements. -->
+<!ELEMENT book (title, price)>
+<!-- Each book must have a title and a price as its children. -->
+<!ATTLIST book category CDATA "Literature">
+<!-- A book should have a category attribute. If it doesn't, its default value
+  will be 'Literature'. -->
+<!ELEMENT title (#PCDATA)>
+<!-- The element title must only contain parsed character data. That is, it may
+  only contain text which is read by the parser and must not contain children.
+  Compare with CDATA, or character data. -->
+<!ELEMENT price (#PCDATA)>
+]>
+
+<!-- The DTD could be declared inside the XML file itself.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE bookstore [
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (title, price)>
+<!ATTLIST book category CDATA "Literature">
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+
+<bookstore>
+  <book category="COOKING">
+    <title>Everyday Italian</title>
+    <price>30.00</price>
+  </book>
+</bookstore>
 ```
 
 # References
