@@ -69,11 +69,11 @@ div {
 ```
 ## Short hand Colors
 ```css
-<div style="background-color:#f0f0f0;">#f0f0f0</div>
-<div style="background-color:#fff;">#fff</div>
-<div style="background-color:#ffffff;">#ffffff</div>
+background-color:#f0f0f0;
+background-color:#fff;
+background-color:#ffffff;
 ```
-Is rendered all the same. Therefore there is no difference between #fff and #ffffff.
+Is rendered all the same. Therefore there is no difference between ```#fff``` and ```#ffffff```.
 
 # Learn X in Y minutes
 ```css
