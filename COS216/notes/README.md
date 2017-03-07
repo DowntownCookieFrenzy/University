@@ -3,6 +3,6 @@
 ## Index:
 ### Semester Test 1:
 - [HTML](html.md)
-- [CSS](css.md)
+- [CSS](CSS.md)
 - [Javascript](javascript.md)
 - [Xml](xml.md)

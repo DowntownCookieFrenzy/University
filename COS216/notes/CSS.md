@@ -25,7 +25,9 @@ Where:
 
 
 To specify a particular element by ID we do:
+````Pseudo
 #<id>{someProperty: someValue;}
+````
 
 ````CSS
 #placeholder{
