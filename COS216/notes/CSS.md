@@ -67,11 +67,19 @@ div {
     animation-duration: 4s;
 }
 ```
+## Universal selector
+```css
+* {
+  margin: 0;
+  padding: 0;
+}
+```
+
 ## Short hand Colors
 ```css
-background-color:#f0f0f0;
-background-color:#fff;
-background-color:#ffffff;
+color: #F0F0F0;
+color: #FFF;
+color: #FFFFFF;
 ```
 Is rendered all the same. Therefore there is no difference between ```#fff``` and ```#ffffff```.
 
