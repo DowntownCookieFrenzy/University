@@ -3,7 +3,7 @@
 @Date:   2017-03-07T22:56:03+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-07T23:08:26+02:00
+@Last modified time: 2017-03-07T23:11:11+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -14,7 +14,7 @@ The Model-View-Controller (MVC) is an architectural pattern that separates an ap
 <img src="/COS216/notes/images/mvc.jpg" width="500">
 
 ### Implementation
-<!--[MVC Implementation](/COS216/notes/images/mvcimplementation.jpg)-->
+<!--![MVC Implementation](/COS216/notes/images/mvcimplementation.jpg)-->
 <img src="/COS216/notes/images/mvcimplementation.jpg" width="500">
 
 # References
