@@ -66,7 +66,7 @@ Virtue Ethics is a classification within Normative Ethics that attempts to disco
 
 ### Deontological ethics
 ![Deontological](/INL240/deontological.jpg)
-
+![ConnorWasHere](http://www.buzzle.com/img/articleImages/609336-52415-8.jpg)
 #### What
 The word deontology derives from the Greek words for duty (deon) and science (or study) of (logos).
 #### Why
