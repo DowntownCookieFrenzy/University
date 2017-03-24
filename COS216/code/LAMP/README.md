@@ -13,25 +13,29 @@ look like!
 
 These can be installed via most package managers.
 
+## Configuration:
+You need to create a database so that php can connect to it. At the same time you also need to setup
+the php engine to work with the mysql modules. This all done by just editing the config files.
+
 ## Final Notes:
 Configurations for nginx and mysql are in the Configurations directory.
 With these configs the servers will only be hosted on localhost.
 
 You can start the services by:
 
-````bash
+``bash
 sudo ./start.sh
-````
+``
 
 Stop with:
-````bash
+``bash
 sudo ./stop.sh
-````
+``
 
 Restart with:
-````bash
+``bash
 sudo ./restart.sh
-````
+``
 
 Please look at the notes posted inside of each configuration file. There are a
 few corners to be cut!
