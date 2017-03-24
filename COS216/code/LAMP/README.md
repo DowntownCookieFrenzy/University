@@ -2,10 +2,14 @@
 
 This directory contains a few handy scripts for a very basic lamp setup and configuration.
 
+## Disclaimer:
+This setup is by no means secure, hell it won't even work out of the box but it is a nice example of what a test server would
+look like!
+
 ## Dependancies:
-	* mariadb ( installs mysql )
-	* php-fpm
-	* nginx
+	- mariadb ( installs mysql )
+	- php-fpm
+	- nginx
 
 These can be installed via most package managers.
 
