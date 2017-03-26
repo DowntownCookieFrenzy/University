@@ -35,6 +35,8 @@ A constraint which we can place on an entity to say whether it is partially comp
 
 ### Partial Completeness:
 ![partial](http://imgur.com/t3Gzone.png)
+Some supertype occurences are not members of any subtype.
 
 ### Total Completeness:
-![complete](http://imggur.com/l1Ps6jl.png)
+![complete](http://imgur.com/l1Ps6jl.png)
+Every subtype occurence must be member of at least one subtype.
