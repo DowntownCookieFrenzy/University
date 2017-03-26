@@ -9,3 +9,4 @@ In this model we have two entity types;
 ## Specialisation Hierarchy:
 This hierarchy shows the arrangement of higher/supertype entities compared to lower/subtype entities.
 NB Subtype entities only exist in scope of supertypes and every subtype has only one supertype to which it is related.
+![WUT](http://imgur.com/oJtq0Dc)
