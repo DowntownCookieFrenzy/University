@@ -64,9 +64,18 @@ PROJECT eliminates columns while SELECT eliminates rows.
 - UNION combines two tables that have the same attributes (takes the rows from both tables and puts them in a new table)
 - INTERSECT finds the rows that appear in both tables and puts them
   in the new table
+![union_intersect](http://imgur.com/iRmvH1h.jpg)
 
 #### DIFFERENCE & PRODUCT
 - Difference gives the rows that appear in one table
   but not in the other
 - PRODUCT makes a new table with all
   the attributes from both tables
+  
+#### Natural Join
+- Links tables by selecting rows with common values in common attribute(s)
+![natural_join](http://imgur.com/bMnefZF.jpg)
+
+####Outer join
+- Matched pairs are retained, and any unmatched values in other table are left null
+![outer_join](http://imgur.com/6LyIr1A.jpg)
