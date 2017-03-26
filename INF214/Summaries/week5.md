@@ -10,3 +10,17 @@ In this model we have two entity types;
 This hierarchy shows the arrangement of higher/supertype entities compared to lower/subtype entities.
 NB Subtype entities only exist in scope of supertypes and every subtype has only one supertype to which it is related.
 ![WUT](http://i.imgur.com/oJtq0Dc.png)
+
+## Inheritance:
+* Subtypes can inherit attributes of supertype.
+* Subtypes inherit all relationships of supertype.
+* Subtypes inherit supertypes primary key attribute.
+* At an implementation level super and subtypes maintain a 1:1 relationship.
+
+### Subtype-Discriminator:
+* An entity in the supertype which determines to which entity subtype each supertype occurence is related.
+* Default comparison is equality;
+* Subtype discriminators may be based on other comparision conditions.
+
+### Disjoint And Overlapping Constraints:
+
