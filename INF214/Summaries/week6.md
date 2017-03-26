@@ -3,7 +3,7 @@
 @Date:   2017-03-26T18:48:24+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-26T19:57:01+02:00
+@Last modified time: 2017-03-26T20:06:52+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -36,11 +36,12 @@ The attribute B is fully functionally dependent on the attribute A if each value
 
 ![1NF](https://i.imgur.com/dSPrxZs.jpg)
 
-## Partial dependency
-
 ## Conversion to 2NF
 ![1NF](http://imgur.com/ZkP8i5Y.jpg)
 ![1NF](http://imgur.com/OneW3LJ.jpg)
 ![1NF](http://imgur.com/4H4r33R.jpg)
 ![1NF](http://imgur.com/veJrPhM.jpg)
 ![1NF](http://imgur.com/7sUzEXh.jpg)
+
+### Class Example
+![1NF](http://imgur.com/SkBRh7Q.jpg)
