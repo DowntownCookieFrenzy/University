@@ -71,6 +71,26 @@ Generally the data modeller uses natural identifier as the primary key but may i
 * Attributes which uniquely identify entities.
 * Grantees integrity.
 
+
+## Composite Keys:
+
 Use composite primary keys when:
 * You need identifiers of composite entities.
 * You need identifiers of weak entities.
+* Real world objects which are existent-dependent on another real-world object.
+
+Note that dependants only exist when it is related to the parent entity.
+
+![thomas](http://i.imgur.com/bGbw0nU.png)<br>
+
+
+## Surrogate Keys:
+
+Surrogate keys are helpful when: 
+* There are no natural keys.
+* Candidate key has embedded semantic contents.
+* Candidate key is too long.
+
+Take care to:
+* Ensure the candidate key in question performs properly.
+* Use unique index and not null constrainst.
