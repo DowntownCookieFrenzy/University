@@ -1,3 +1,4 @@
+# Week 4
 # Relationships
 
 - Association between entities
@@ -52,3 +53,12 @@ Also known as bridge entities
 - Used to implement M:N relationships
 - Composed of primary keys of each of the entities to be connected
 - May also contain additional attributes that play no role in connective process
+
+# Simplified process to follow
+1. Find the entities (‘things’ on which data is stored) Note: Nouns indicate entities, underline them {Persons, places, objects, events, concepts}
+    - Identify synonyms
+    - Names are represented in singular terms
+2. How are entities related? What are the relationships between the entities?
+    - Create ERD Segments
+    - Combine ERD Segments
+3. Determine the cardinality (by default Crow’s foot notation)
