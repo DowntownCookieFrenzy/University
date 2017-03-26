@@ -23,4 +23,9 @@ NB Subtype entities only exist in scope of supertypes and every subtype has only
 * Subtype discriminators may be based on other comparision conditions.
 
 ### Disjoint And Overlapping Constraints:
-
+Disjoint types are also called non-overlapping types;
+A disjoint type is a subtype that contains a unique subset of a supertype entity set.
+<br>
+Overlapping substypes are subtypes that contain non-unique subsets of supertype entity sets.
+<br>
+Thus Disjoint(unique subsets) types are the opposite of Overlapping(non-unique) types.
