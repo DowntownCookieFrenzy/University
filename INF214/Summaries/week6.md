@@ -3,7 +3,7 @@
 @Date:   2017-03-26T18:48:24+02:00
 @Email:  thomas@quantum-sicarius.za.net
 @Last modified by:   thomas
-@Last modified time: 2017-03-26T20:06:52+02:00
+@Last modified time: 2017-03-26T20:09:28+02:00
 @License: Attribution-NonCommercial-ShareAlike 4.0 International
 -->
 
@@ -45,3 +45,4 @@ The attribute B is fully functionally dependent on the attribute A if each value
 
 ### Class Example
 ![1NF](http://imgur.com/SkBRh7Q.jpg)
+![1NF](http://imgur.com/NEFJA63.jpg)
