@@ -29,3 +29,12 @@ A disjoint type is a subtype that contains a unique subset of a supertype entity
 Overlapping substypes are subtypes that contain non-unique subsets of supertype entity sets.
 <br>
 Thus Disjoint(unique subsets) types are the opposite of Overlapping(non-unique) types.
+
+## Completeness Constraint:
+A constraint which we can place on an entity to say whether it is partially complete or totally complete.
+
+### Partial Completeness:
+![partial](http://imgur.com/t3Gzone.png)
+
+### Total Completeness:
+![complete](http://imggur.com/l1Ps6jl.png)
