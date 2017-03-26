@@ -55,7 +55,22 @@ Every subtype occurence must be member of at least one subtype.
 A virtual entity used to represent multiple entities and relationships in ERD.
 _It is not an entity in the final ERD_. It is only temporary. They are usually used to avoid display of attributes which would be redundant or unpleasant.
 
-## Entity Integrity: Selecting Primary Keys:
+## Entity Integrity - Selecting Primary Keys:
 A primary key is the most important characteristics of an entity and is normally a single attribute or some combination of attributes.
 Primary keys guarantee entity integrity and work with foreign keys to implement relationships.
 Your efficiency is directly linked to your selected primary key.
+
+## Natural Keys:
+A natural key is a real-world identifier used to uniquely identify real-world objects.
+These objects are familiar to end users and form part of their day to day vocabulary.
+
+Generally the data modeller uses natural identifier as the primary key but may instead use a composite primary key or surrogate keys.
+
+
+## Guide To Picking Primary Keys:
+* Attributes which uniquely identify entities.
+* Grantees integrity.
+
+Use composite primary keys when:
+* You need identifiers of composite entities.
+* You need identifiers of weak entities.
