@@ -32,7 +32,7 @@ Thus Disjoint(unique subsets) types are the opposite of Overlapping(non-unique) 
 
 ## Completeness Constraint:
 A constraint which we can place on an entity to say whether it is partially complete or totally complete.
-
+![completeness](http://imgur.com/Jt4spRT)
 ### Partial Completeness:
 ![partial](http://imgur.com/t3Gzone.png)
 Some supertype occurences are not members of any subtype.
