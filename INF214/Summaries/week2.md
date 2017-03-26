@@ -76,6 +76,6 @@ PROJECT eliminates columns while SELECT eliminates rows.
 - Links tables by selecting rows with common values in common attribute(s)
 ![natural_join](http://imgur.com/bMnefZF.jpg)
 
-####Outer join
+#### Outer join
 - Matched pairs are retained, and any unmatched values in other table are left null
 ![outer_join](http://imgur.com/6LyIr1A.jpg)
