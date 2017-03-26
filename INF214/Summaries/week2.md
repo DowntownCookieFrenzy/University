@@ -45,3 +45,28 @@ FK contains a value that refers to an existing valid tuple (row) in another rela
 Key used strictly for data retrieval purposes
 
 # Relational Set Operators
+### Relational algebra
+- Defines theoretical way of manipulating table contents using relational operators
+- Use of relational algebra operators on existing relations produces new relations:
+    - SELECT 
+    - DIFFERENCE
+    - PROJECT 
+    - JOIN
+    - UNION 
+    - PRODUCT
+    - INTERSECT 
+    - DIVIDE
+    
+#### Select VS Project
+PROJECT eliminates columns while SELECT eliminates rows.
+
+#### UNION & INTERSECT
+- UNION combines two tables that have the same attributes (takes the rows from both tables and puts them in a new table)
+- INTERSECT finds the rows that appear in both tables and puts them
+  in the new table
+
+#### DIFFERENCE & PRODUCT
+- Difference gives the rows that appear in one table
+  but not in the other
+- PRODUCT makes a new table with all
+  the attributes from both tables
