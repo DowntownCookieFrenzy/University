@@ -1,6 +1,6 @@
 # Week 4
 # Relationships
-
+![l](https://wcs.smartdraw.com/entity-relationship-diagram/img/information-engineering-style.jpg?bn=1510011089)
 - Association between entities
 - Participants are entities that participate in a relationship
 - Relationships between entities always operate in both directions
