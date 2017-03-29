@@ -9,8 +9,8 @@
 - [MVC](mvc.md)
 - [Internet and Sockets](internetAndSockets.md)
 
-### Class Test 3 Scope ?
-- Bootstrap
+### Class Test 3
+- [Bootstrap](bootstrap.md)
 - JavaScript OO
 - JavaScript Cookies
 - PHP
