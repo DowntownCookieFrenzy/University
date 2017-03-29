@@ -11,7 +11,7 @@
 
 ### Class Test 3
 - [Bootstrap](bootstrap.md)
-- JavaScript OO
+- [JavaScript Objects](javascriptObjects.md)
 - JavaScript Cookies
 - PHP
 - MySQL
