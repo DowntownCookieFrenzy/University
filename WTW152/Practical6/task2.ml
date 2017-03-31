@@ -1,8 +1,14 @@
-x = [5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24];
-y = [0.7, 0.9, 1.4, 1.7, 2.4, 3.1 ,3.5 ,4.8, 5.1, 6.5, 7.5, 8.1, 10.5, 10.3, 13.2, 13.9, 15.1, 18.7, 17.5, 22.7];
-
-plot(x, y, 'r-')
-# Get the data and plot it;
-
-
 # Now we start fitting
+Q = log(y);
+P = log(x);
+A = polyfit(P,Q,1);
+
+c=exp(A(2));
+d=A(1);
+disp('c: '),disp(c)
+disp('d: '),disp(d)
+disp('A(1)'),disp(A(1))
+disp('A(2)'),disp(A(2))
+
+hold on
+plot(x, A(1).*P+exp(A(2)), 'b-')
