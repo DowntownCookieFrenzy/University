@@ -1,0 +1,3 @@
+[submodule "COS216/code/ChitterChatter"]
+	path = COS216/code/ChitterChatter
+	url = git://github.com:/RagingGrim/ChitterChatter.git
