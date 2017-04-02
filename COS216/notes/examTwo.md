@@ -31,3 +31,24 @@ Restrict size of an image upload:
         <input type=submit>
     </form>
 ```
+
+<summary>
+What does PHP stand for?
+<details>
+Hypertext Preprocessor!
+</details><br>
+
+Can users view php code from the browser?
+<details>
+No! Unlike js ; php is a prepocessor and everything is done on the servers side.
+</details><br>
+
+How are variables declared?
+<details>
+```php
+	$num = 968;
+```
+</details><br>
+</summary>
+
+
