@@ -56,4 +56,14 @@ What does the following code do?
 $fd = fopen($filename, "r") or die ("Failed to open file.");
 ```
 
-It opens the file as dictated by $filename or stops execution with the given error message. 
+It opens the file as dictated by $filename or stops execution with the given error message.
+
+<summary>
+How are string operations done in php?
+<details>
+* strcmp: Compares two strings.
+* strstr: Finds a substring within another string.
+* strlen: Returns the length of a string.
+* strcpy: Copies one string into another one.
+</details><br>
+</summary> 
