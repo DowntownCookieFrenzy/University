@@ -75,4 +75,11 @@ What are type hints?
 Typehints are keywords for specifying types of arguments inside a function prototype.
 </details><br>
 </summary>
- 
+
+
+<details>
+<summary>Which superglobal contains Get, Post and cookie data?</summary>
+```php
+$_REQUEST
+```
+</details>
