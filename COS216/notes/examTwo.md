@@ -111,12 +111,12 @@ $_REQUEST
 
 - A session is started with `session_start()`;
 - A simple way to store data for individual users.
-- Persist state across page requests. 
+- Persist state across page requests.
 </details>
 
 <details>
 <summary>Which superglobal is used to upload files?</summary>
-$_FILES
+`$_FILES`
 </details>
 
 <details>
@@ -219,14 +219,14 @@ PHP 5 introduces the final keyword, which prevents child classes from overriding
 interface IMyInterface{
 	const INTERFACE_CONSTANT_1 = 1;
 	const INTERFACE_CONSTANT_2 = 'a string';
- 
+
 	public function method_1();
 	public function method_2();
 }
 
 class MyClass implements IMyInterface{
 	public function method_1(){
-		// method 1 implementation	
+		// method 1 implementation
 	}
 	public function method_2(){
 		// method 2 implementation
@@ -239,24 +239,24 @@ class MyClass implements IMyInterface{
 - Method signatures and constants.
 ```php
 trait Sharable {
- 
+
   public function share($item)
   {
     return 'share this item';
   }
- 
+
 }
 
 class Post {
- 
+
   use Sharable;
- 
+
 }
- 
+
 class Comment {
- 
+
   use Sharable;
- 
+
 }
 ```
 
@@ -278,3 +278,91 @@ abstract class Maths{
 </details>
 
 ## Long Questions
+
+#### MySQL
+<details>
+<summary>
+
+The ```sql LIKE``` operations is very useful `SQL` operation. However, in MySQL there is a large feature missing from the ```sql LIKE``` operation. What is this feature, and what operation should you use to emulate this missing feature.
+
+</summary>
+
+TODO
+
+</details>
+
+Assume we have two tables in our database `Student`, and `Advisor`. The `Student` table has three columns, `Student_ID`, `Student_Name`, and `Advisor_ID`. The `Advisor` table has two columns, `Advisor_ID` and `Advisor_Name`.
+<details>
+<summary>
+
+Write a MySQL statement to extract a table that contains two columns. The first column should display a registered student, and the second column should display the name of h student's advisor.
+
+</summary>
+
+```sql
+SELECT S.Student_Name, A.Advisor_Name
+FROM Student S
+INNER JOIN Advisor A
+ON S.Advisor_ID = A.Advisor_ID;
+```
+
+</details>
+
+<details>
+
+<summary>
+
+MySQL does not support full joins, using a combination of any number of other MySQL operations, write a full join between the `Student` table and the `Advisor` table on the `Advisor_ID` attribute. The result table must contain the same attributes as the previous question.
+
+</summary>
+
+```sql
+SELECT S.Student_Name, A.Advisor_Name FROM Student S
+LEFT JOIN Advisor A ON S.Advisor_ID = A.Advisor_ID
+UNION ALL
+SELECT S.Student_Name, A.Advisor_Name FROM Student S
+RIGHT JOIN Advisor A ON S.Advisor_ID = A.Advisor_ID
+```
+
+</details>
+
+#### Bootstrap
+
+##### Given
+```html
+<nav class="**1**">
+  <div class="container-fluid">
+    <div class="**2**">
+      <a class="**3**" href="#">TheSite</a>
+    </div>
+    <div>
+      <ul class="**4**">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+      </ul>
+      <ul class="**5**">
+        <li><a href="#">Sign up</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+
+##### Result
+![image](http://imgur.com/uoaQ52V.jpg)
+
+<details>
+<summary>
+
+Provide the missing text needed for the locations marked with stars in the `HTML`
+
+</summary>
+
+1. `navbar navbar-inverse`
+2. `navbar-header`
+3. `navbar-brand`
+4. `nav navbar-nav`
+5. `nav navbar-nav navbar-right`
+
+</details>
