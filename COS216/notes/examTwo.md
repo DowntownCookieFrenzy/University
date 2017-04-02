@@ -104,6 +104,7 @@ $_REQUEST
 
 - Strings
 - Integers
+
 </details>
 
 <details>
@@ -112,6 +113,7 @@ $_REQUEST
 - A session is started with `session_start()`;
 - A simple way to store data for individual users.
 - Persist state across page requests.
+
 </details>
 
 <details>
@@ -124,12 +126,14 @@ $_REQUEST
 
 - It can be used to create custom HTTP headers.
 - It usually used on the first line of a script ( eg to force a download ).
+
 </details>
 
 <details>
 <summary>What does it mean that php functions are first class citizens?</summary>
 
 - Can be passed as a paremeter to a function
+
 ```php
 function bar(){
 	return 1;
@@ -153,6 +157,7 @@ function foo(){
 
 $a = foo;
 ```
+
 </details>
 
 <details>
@@ -170,6 +175,7 @@ function foo($value){
 	return function bar($anotherValue) uses $value{ return $anotherValue + $value }
 }
 ```
+
 </details>
 
 <details>
@@ -207,6 +213,7 @@ PHP 5 introduces the final keyword, which prevents child classes from overriding
 
 - Interfaces
 - Traits
+
 </details>
 
 <details>
@@ -304,23 +311,29 @@ It will output: wot?
 
 <details>
 <summary>What are PHP autoloaders and how can you register your own</summary>
+
 - To register your own use `spl_autoload_register`
 - Allows you to define search paths for classes so you don't have include them manually.
 - Redundant includes can be avoided.
+
 </details>
 
 <details>
 <summary>Name the three data types defined in the SPL</summary>
+
 - Heaps (min & max)
 - SPLQueue
 - SPLStack
+
 </details>
 
 <details>
 <summary>Explain the differences between SplFileInfo, SplFileObject and SplTempFileObject</summary>
+
 - SplFileInfo: The SplFileInfo class offers a high-level object oriented interface to information for an individual file.
 - SplFileObject: The SplFileObject class offers an object oriented interface for a file.
 - SplTempFileObject: The SplTempFileObject class offers an object oriented interface for a temporary file.
+
 </details>
 
 <details>
