@@ -154,4 +154,5 @@ function foo(){
 $a = foo;
 ```
 </details>
+
 ## Long Questions
