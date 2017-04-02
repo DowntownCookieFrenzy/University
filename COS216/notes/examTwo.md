@@ -325,9 +325,23 @@ It will output: wot?
 
 <details>
 <summary>What are the main differences between php and javascript</summary?>
+PHP is server side while Javascript is client side.
 
-![Thomas Sing Heeltyd](https://image.slidesharecdn.com/anintroductiontojavascript-130306230241-phpapp01/95/an-introduction-to-javascript-10-638.jpg?cb=1362611016)
+</details>
 
+<details>
+<summary>True Or False: The standard relation module allows for the construction of an order 2 logic system?</summary>
+False
+</details>
+
+<details>
+<summary>True Or False: The cookie Expire attribute has higher precedence than the Max-Age attribute?</summary>
+False
+</details>
+
+<details>
+<summary>True Or False: MySQL is not case sensitive?"</summary>
+True
 </details>
 
 
