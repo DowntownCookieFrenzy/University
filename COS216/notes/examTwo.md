@@ -42,13 +42,10 @@ Can users view php code from the browser?
 <details>
 No! Unlike js ; php is a prepocessor and everything is done on the servers side.
 </details><br>
-
+</summary>
 How are variables declared?
-<details>
 ```php
 	$num = 968;
 ```
-</details><br>
-</summary>
 
 
