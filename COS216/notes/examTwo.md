@@ -282,9 +282,7 @@ abstract class Maths{
 #### MySQL
 <details>
 <summary>
-
-The ```sql LIKE``` operations is very useful `SQL` operation. However, in MySQL there is a large feature missing from the ```sql LIKE``` operation. What is this feature, and what operation should you use to emulate this missing feature.
-
+The LIKE operations is very useful SQL operation. However, in MySQL there is a large feature missing from the LIKE operation. What is this feature, and what operation should you use to emulate this missing feature.
 </summary>
 
 TODO
@@ -294,9 +292,7 @@ TODO
 Assume we have two tables in our database `Student`, and `Advisor`. The `Student` table has three columns, `Student_ID`, `Student_Name`, and `Advisor_ID`. The `Advisor` table has two columns, `Advisor_ID` and `Advisor_Name`.
 <details>
 <summary>
-
 Write a MySQL statement to extract a table that contains two columns. The first column should display a registered student, and the second column should display the name of h student's advisor.
-
 </summary>
 
 ```sql
@@ -311,9 +307,7 @@ ON S.Advisor_ID = A.Advisor_ID;
 <details>
 
 <summary>
-
-MySQL does not support full joins, using a combination of any number of other MySQL operations, write a full join between the `Student` table and the `Advisor` table on the `Advisor_ID` attribute. The result table must contain the same attributes as the previous question.
-
+MySQL does not support full joins, using a combination of any number of other MySQL operations, write a full join between the Student table and the Advisor table on the Advisor_ID attribute. The result table must contain the same attributes as the previous question.
 </summary>
 
 ```sql
@@ -354,7 +348,7 @@ RIGHT JOIN Advisor A ON S.Advisor_ID = A.Advisor_ID
 
 <details>
 <summary>
-Provide the missing text needed for the locations marked with stars in the `HTML`
+Provide the missing text needed for the locations marked with stars in the HTML.
 </summary>
 
 1. `navbar navbar-inverse`
