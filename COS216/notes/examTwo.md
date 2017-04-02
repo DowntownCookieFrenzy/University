@@ -340,7 +340,7 @@ False
 </details>
 
 <details>
-<summary>True Or False: MySQL is not case sensitive?"</summary>
+<summary>True Or False: MySQL is not case sensitive?</summary>
 True
 </details>
 
