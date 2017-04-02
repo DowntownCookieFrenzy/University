@@ -50,4 +50,10 @@ How are variables declared?
 $num = 968;
 ```
 
+What does the following code do?
 
+```php
+$fd = fopen($filename, "r") or die ("Failed to open file.");
+```
+
+It opens the file as dictated by $filename or stops execution with the given error message. 
