@@ -27,18 +27,14 @@ Restrict size of an image upload:
 ## Short Questions
 
 <details>
-<summary>
-What does DOM stand for?
-</summary>
+<summary>What does DOM stand for?</summary>
 
 Document Object Model
 
 </details>
 
 <details>
-<summary>
-What are the storage limits for Cookie and DOM storage respectively?
-</summary>
+<summary>What are the storage limits for Cookie and DOM storage respectively?</summary>
 
 - Cookie: 4Kb
 - DOM: 50MB
@@ -46,9 +42,7 @@ What are the storage limits for Cookie and DOM storage respectively?
 </details>
 
 <details>
-<summary>
-Define a cookie:
-</summary>
+<summary>Define a cookie:</summary>
 
 A cookie is stored on a user's computer as to remember information about the user.
 They can be used for persistent logins or maybe caching user preferences.
@@ -56,9 +50,7 @@ They can be used for persistent logins or maybe caching user preferences.
 </details>
 
 <details>
-<summary>
-Name two attributes of a cookie:
-</summary>
+<summary>Name two attributes of a cookie:</summary>
 
 - Secure
 - HTTPOnly
@@ -66,23 +58,17 @@ Name two attributes of a cookie:
 </details>
 
 <details>
-<summary>
-What does PHP stand for?
-</summary>
+<summary>What does PHP stand for?</summary>
 Hypertext Preprocessor
 </details>
 
 <details>
-Can users view PHP code from the browser?
-<summary>
 No! Unlike JS; PHP is a prepocessor and everything is done on the servers side.
-</summary>
+<summary>Can users view PHP code from the browser?</summary>
 </details>
 
 <details>
-<summary>
-How are string operations done in PHP?
-</summary>
+<summary>How are string operations done in PHP?</summary>
 
 - `strcmp` Compares two strings.
 - `strstr` Finds a substring within another string.
@@ -92,18 +78,14 @@ How are string operations done in PHP?
 </details>
 
 <details>
-<summary>
-How can you access global variables from inside a function?
-</summary>
+<summary>How can you access global variables from inside a function?</summary>
 
 Use the superglobal ```$GLOBALS``` or the keyword global.
 
 </details>
 
 <details>
-<summary>
-What are type hints?
-</summary>
+<summary>What are type hints?</summary>
 
 Type hints are keywords for specifying types of arguments inside a function prototype.
 
