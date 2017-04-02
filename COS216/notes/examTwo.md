@@ -374,8 +374,8 @@ ON S.Advisor_ID = A.Advisor_ID;
 
 </details>
 
-<details>
 
+<details>
 <summary>
 MySQL does not support full joins, using a combination of any number of other MySQL operations, write a full join between the Student table and the Advisor table on the Advisor_ID attribute. The result table must contain the same attributes as the previous question.
 </summary>
@@ -490,6 +490,7 @@ if (typeof question104 === 'ExamQuestion')
 
 </details>
 
+
 Implement the `ExamQuestion` class by answering the qestions which follow:
 
 <details>
@@ -507,6 +508,7 @@ var ExamQuestion = function(question) {
 
 </details>
 
+
 <details>
 <summary>
 Implement a method called answerQuestion that receives an answer to the question and stores it in the answer property.
@@ -520,6 +522,7 @@ ExamQuestion.prototype.answerQuestion = function (answer) {
 
 </details>
 
+
 <details>
 <summary>
 Write code that creates an ExamQuestion object and answers the question for this object. The question and answer may be strings of your choosing.
@@ -531,6 +534,7 @@ question.answerQuestion("Some say...");
 ```
 
 </details>
+
 
 <details>
 <summary>
