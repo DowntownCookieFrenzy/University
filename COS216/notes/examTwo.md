@@ -58,24 +58,36 @@ $fd = fopen($filename, "r") or die ("Failed to open file.");
 
 It opens the file as dictated by $filename or stops execution with the given error message.
 
+
+<details>
 <summary>
-How are string operations done in php?
-<details>
-* strcmp: Compares two strings.<br>
-* strstr: Finds a substring within another string.<br>
-* strlen: Returns the length of a string.<br>
-* strcpy: Copies one string into another one.<br>
-</details><br>
-How can you access global variables from inside a function?
-<details>
-Use the superglobal $GLOBALS or the keyword global.
-</details><br>
-What are type hints?
-<details>
-Typehints are keywords for specifying types of arguments inside a function prototype.
-</details><br>
+How are string operations done in PHP?
 </summary>
 
+`strcmp` Compares two strings.
+`strstr` Finds a substring within another string.
+`strlen` Returns the length of a string.
+`strcpy` Copies one string into another one.
+
+</details>
+
+<details>
+<summary>
+How can you access global variables from inside a function?
+</summary>
+
+Use the superglobal ```$GLOBALS``` or the keyword global.
+
+</details>
+
+<details>
+<summary>
+What are type hints?
+</summary>
+
+Type hints are keywords for specifying types of arguments inside a function prototype.
+
+</details>
 
 <details>
 <summary>Which superglobal contains Get, Post and cookie data?</summary>
