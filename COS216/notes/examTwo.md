@@ -66,4 +66,13 @@ How are string operations done in php?
 * strlen: Returns the length of a string.<br>
 * strcpy: Copies one string into another one.<br>
 </details><br>
-</summary> 
+How can you access global variables from inside a function?
+<details>
+Use the superglobal $GLOBALS or the keyword global.
+</details><br>
+What are type hints?
+<details>
+Typehints are keywords for specifying types of arguments inside a function prototype.
+</details><br>
+</summary>
+ 
