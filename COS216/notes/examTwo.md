@@ -420,7 +420,7 @@ True
 
 ## Long Questions
 
-#### MySQL
+### MySQL
 <details>
 <summary>
 The LIKE operations is very useful SQL operation. However, in MySQL there is a large feature missing from the LIKE operation. What is this feature, and what operation should you use to emulate this missing feature.
@@ -430,7 +430,7 @@ TODO
 
 </details>
 
-##### Given
+#### Given
 Assume we have two tables in our database `Student`, and `Advisor`. The `Student` table has three columns, `Student_ID`, `Student_Name`, and `Advisor_ID`. The `Advisor` table has two columns, `Advisor_ID` and `Advisor_Name`.
 
 <details>
@@ -463,9 +463,9 @@ RIGHT JOIN Advisor A ON S.Advisor_ID = A.Advisor_ID
 
 </details>
 
-#### Bootstrap
+### Bootstrap
 
-##### Given
+#### Given
 ```html
 <nav class="**1**">
   <div class="container-fluid">
@@ -486,7 +486,7 @@ RIGHT JOIN Advisor A ON S.Advisor_ID = A.Advisor_ID
 </nav>
 ```
 
-##### Result
+#### Result
 ![image](http://imgur.com/uoaQ52V.jpg)
 
 <details>
@@ -537,9 +537,9 @@ Currently the provided HTML doesn't support very small displays well. Add the ne
 
 </details>
 
-#### Javascript
+### Javascript
 
-##### Given
+#### Given
 
 A `ExamQuestion` class has been defined which has 3 properties: `question`, `answer` and `mark`.
 
@@ -620,6 +620,70 @@ var QuestionWithMemo = function(memo) {
 }
 QuestionWithMemo.prototype = Object.create(ExamQuestion);
 QuestionWithMemo.prototype.constructor = this.constructor;
+```
+
+</details>
+
+### HTML
+
+#### Give
+```html
+<div id="boxy" style="width:80px; height:80px; background: black"></div>
+<button onclick="setProperties()">Set</button>
+```
+
+<details>
+<summary>
+Create a JavaScript function in which new values for the div width, height and background color are set, when the 'Set' button is clicked.
+</summary>
+
+```javaScript
+function setProperties() {
+  var box = document.getElementById("boxy");
+  box.style.width = "40px";
+  box.style.height = "40px";
+  box.style.background = red;
+}
+```
+
+</details>
+
+<details>
+<summary>
+Implement a JavaScript function that returns the name of all accessible cookies for the current domain as an array.
+</summary>
+
+```javascript
+var getCookies = function(){
+  var pairs = document.cookie.split(";");
+  var cookies = {};
+  for (var i=0; i<pairs.length; i++){
+    var pair = pairs[i].split("=");
+    cookies[pair[0]] = unescape(pair[1]);
+  }
+  return cookies;
+}
+```
+
+</details>
+
+
+<details>
+<summary>
+Implement a JavaScript function that deletes all accessible cookies for the current domain. You may assume your previous function works correctly.
+</summary>
+
+```javascript
+var deleteAllCookies() = function() {
+  var cookies = getCookies();
+  var expire = new Date();
+  expire.setDate(expire.getDate() - 10);
+  expire = expire.toUTCString();
+
+  for (var cookie in cookies) {
+    cookie TODO
+  }
+}
 ```
 
 </details>
