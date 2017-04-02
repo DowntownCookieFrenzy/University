@@ -155,4 +155,27 @@ $a = foo;
 ```
 </details>
 
+<details>
+<summary>Which built-in class is used to work with XML files</summary>
+
+SimpleXML
+</details>
+
+<details>
+<summary>Explain the concept of closures and give a code example</summary>
+
+Closures are functions returned by functions which still have access to members of their parent functions.
+```php
+function foo($value){
+	return function bar($anotherValue) uses $value{ return $anotherValue + $value }
+}
+```
+</details>
+
+<details>
+<summary>What is the default visibility for all class members in PHP</summary>
+Public
+</details>
+
+
 ## Long Questions
