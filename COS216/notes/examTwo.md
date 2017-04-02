@@ -109,7 +109,7 @@ $_REQUEST
 <details>
 <summary>How can sessions be used in PHP?</summary>
 
-- A session is started with `session_start()';
+- A session is started with `session_start()`;
 - A simple way to store data for individual users.
 - Persist state across page requests. 
 </details>
