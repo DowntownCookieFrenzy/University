@@ -184,5 +184,21 @@ Public
 - `$this->`    (Assuming the member is not static)
 </details>
 
+<details>
+<summary>How is a constructor for a class created?</summary>
 
+```php
+class cc {
+    function __construct() {
+        echo 'hi!';
+    }
+}
+```
+</details>
+
+<details>
+<summary>What is the meaning of the final keyword in php?</summary>
+
+PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.
+</details>
 ## Long Questions
