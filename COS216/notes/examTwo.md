@@ -337,8 +337,9 @@ It will output: wot?
 </details>
 
 <details>
-<summary>What are the main differences between php and javascript</summary?>
-PHP is server side while Javascript is client side.
+<summary>What are the main differences between php and javascript?</summary>
+
+- PHP is server side while Javascript is client side.
 
 </details>
 
