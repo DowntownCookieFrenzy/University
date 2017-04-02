@@ -2,9 +2,9 @@
 
 <summary>
 What does DOM stand for?
-<details>
+<answer>
 Document Object Model
-</details>
+</answer>
 </summary>
 
 
