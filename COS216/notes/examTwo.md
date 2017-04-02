@@ -61,9 +61,9 @@ It opens the file as dictated by $filename or stops execution with the given err
 <summary>
 How are string operations done in php?
 <details>
-* strcmp: Compares two strings.
-* strstr: Finds a substring within another string.
-* strlen: Returns the length of a string.
-* strcpy: Copies one string into another one.
+* strcmp: Compares two strings.<br>
+* strstr: Finds a substring within another string.<br>
+* strlen: Returns the length of a string.<br>
+* strcpy: Copies one string into another one.<br>
 </details><br>
 </summary> 
