@@ -277,6 +277,56 @@ abstract class Maths{
 
 </details>
 
+<details>
+<summary>What will the output of the following code snippet mean ( snippet is collapsed )</summary>
+```php
+
+class A{
+	public foo(){ echo "bar";};
+}
+
+trait B{
+	public foo(){ echo "wot?";}
+}
+
+class C extends A{
+	use B;
+}
+
+$obj = new C();
+$obj->foo();
+```
+It will output: wot?
+
+</details>
+
+<details>
+<summary>What are PHP autoloaders and how can you register your own</summary>
+- To register your own use `spl_autoload_register`
+- Allows you to define search paths for classes so you don't have include them manually. 
+- Redundant includes can be avoided.
+</details>
+
+<details>
+<summary>Name the three data types defined in the SPL</summary>
+- Heaps (min & max)
+- SPLQueue
+- SPLStack
+</details>
+
+<details>
+<summary>Explain the differences between SplFileInfo, SplFileObject and SplTempFileObject</summary>
+- SplFileInfo: The SplFileInfo class offers a high-level object oriented interface to information for an individual file.
+- SplFileObject: The SplFileObject class offers an object oriented interface for a file.
+- SplTempFileObject: The SplTempFileObject class offers an object oriented interface for a temporary file. 
+</details>
+
+<details>
+<summary>What are the main differences between php and javascript</summary?>
+<img src="https://www.google.co.za/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiIleLH74XTAhWJtRQKHfPtDIIQjRwIBw&url=https%3A%2F%2Fwww.slideshare.net%2Fhussulinux%2Fphp-training-module-1&psig=AFQjCNEw2lpdwIFBPKMn76shzyjr4C4Bug&ust=1491225885807502">
+</details>
+
+
 ## Long Questions
 
 #### MySQL
