@@ -24,6 +24,65 @@ Restrict size of an image upload:
     </form>
 ```
 
+<details>
+<summary>Implement a setCookie function:</summary>
+
+
+```js
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+```
+
+</details>
+
+
+<details>
+<summary>Implement a getCookie function:</summary>
+
+```js
+function getCookie(c_name) {
+    var c_value = " " + document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    }
+    else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start,c_end));
+    }
+    return c_value;
+}
+```
+
+</details>
+
+
+<details>
+<summary>Implement a function to get all cookies:</summary>
+
+```js
+var getCookies = function(){
+  var pairs = document.cookie.split(";");
+  var cookies = {};
+  for (var i=0; i<pairs.length; i++){
+    var pair = pairs[i].split("=");
+    cookies[pair[0]] = unescape(pair[1]);
+  }
+  return cookies;
+}
+
+```
+
+</details>
+
 ## Short Questions
 
 <details>
