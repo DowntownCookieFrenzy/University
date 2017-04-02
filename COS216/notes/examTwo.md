@@ -24,7 +24,7 @@ Restrict size of an image upload:
     </form>
 ```
 
-## Questions
+## Short Questions
 
 <details>
 <summary>
@@ -116,3 +116,5 @@ Type hints are keywords for specifying types of arguments inside a function prot
 $_REQUEST
 ```
 </details>
+
+## Long Questions
