@@ -279,6 +279,7 @@ abstract class Maths{
 
 <details>
 <summary>What will the output of the following code snippet mean ( snippet is collapsed )</summary>
+
 ```php
 
 class A{
@@ -304,7 +305,7 @@ It will output: wot?
 <details>
 <summary>What are PHP autoloaders and how can you register your own</summary>
 - To register your own use `spl_autoload_register`
-- Allows you to define search paths for classes so you don't have include them manually. 
+- Allows you to define search paths for classes so you don't have include them manually.
 - Redundant includes can be avoided.
 </details>
 
@@ -319,7 +320,7 @@ It will output: wot?
 <summary>Explain the differences between SplFileInfo, SplFileObject and SplTempFileObject</summary>
 - SplFileInfo: The SplFileInfo class offers a high-level object oriented interface to information for an individual file.
 - SplFileObject: The SplFileObject class offers an object oriented interface for a file.
-- SplTempFileObject: The SplTempFileObject class offers an object oriented interface for a temporary file. 
+- SplTempFileObject: The SplTempFileObject class offers an object oriented interface for a temporary file.
 </details>
 
 <details>
