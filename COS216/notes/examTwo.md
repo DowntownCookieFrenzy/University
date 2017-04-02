@@ -44,6 +44,7 @@ No! Unlike js ; php is a prepocessor and everything is done on the servers side.
 </details><br>
 </summary>
 How are variables declared?
+<br>
 ```php
 $num = 968;
 ```
