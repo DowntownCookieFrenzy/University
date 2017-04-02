@@ -357,7 +357,9 @@ TODO
 
 </details>
 
+##### Given
 Assume we have two tables in our database `Student`, and `Advisor`. The `Student` table has three columns, `Student_ID`, `Student_Name`, and `Advisor_ID`. The `Advisor` table has two columns, `Advisor_ID` and `Advisor_Name`.
+
 <details>
 <summary>
 Write a MySQL statement to extract a table that contains two columns. The first column should display a registered student, and the second column should display the name of h student's advisor.
@@ -424,5 +426,123 @@ Provide the missing text needed for the locations marked with stars in the HTML.
 3. `navbar-brand`
 4. `nav navbar-nav`
 5. `nav navbar-nav navbar-right`
+
+</details>
+
+
+<details>
+<summary>
+Currently the provided HTML doesn't support very small displays well. Add the necessary HTML to make the navigation bar collapsible if the available display is too small.
+</summary>
+
+```html
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- Add this button -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TheSite</a>
+    </div>
+    <!-- Add this class -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign up</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+
+</details>
+
+#### Javascript
+
+##### Given
+
+A `ExamQuestion` class has been defined which has 3 properties: `question`, `answer` and `mark`.
+
+```javascript
+if (typeof question104 == 'ExamQuestion') {
+  console.log('This object is indeed an exam question');
+}
+else {
+  console.log('This object is not an exam question');
+}
+```
+
+<details>
+<summary>
+Clearly there is an error in the statement. Provide a corrected boolean statement (you only need to provide the boolean statement).
+</summary>
+
+```javascript
+if (typeof question104 === 'ExamQuestion')
+```
+
+</details>
+
+Implement the `ExamQuestion` class by answering the qestions which follow:
+
+<details>
+<summary>
+Implement the constructor. The constructor should receive an initial value for question.
+</summary>
+
+```javascript
+var ExamQuestion = function(question) {
+  this.question = question;
+  this.answer = "";
+  this.mark = 0;
+}
+```
+
+</details>
+
+<details>
+<summary>
+Implement a method called answerQuestion that receives an answer to the question and stores it in the answer property.
+</summary>
+
+```javascript
+ExamQuestion.prototype.answerQuestion = function (answer) {
+  this.answer = answer;
+}
+```
+
+</details>
+
+<details>
+<summary>
+Write code that creates an ExamQuestion object and answers the question for this object. The question and answer may be strings of your choosing.
+</summary>
+
+```javascript
+var question = new ExamQuestion("Is the COS department fucked up?");
+question.answerQuestion("Some say...");
+```
+
+</details>
+
+<details>
+<summary>
+Now implement the constructor for a class called QuestionWithMemo which inherits from ExamQuestion. This new derived class should add a memo property. The constructor should receive an initial value for this memo.
+</summary>
+
+```javascript
+var QuestionWithMemo = function(memo) {
+  this.memo = memo;
+}
+QuestionWithMemo.prototype = Object.create(ExamQuestion);
+QuestionWithMemo.prototype.constructor = this.constructor;
+```
 
 </details>
