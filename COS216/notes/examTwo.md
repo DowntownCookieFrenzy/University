@@ -114,4 +114,44 @@ $_REQUEST
 - Persist state across page requests. 
 </details>
 
+<details>
+<summary>Which superglobal is used to upload files?</summary>
+$_FILES
+</details>
+
+<details>
+<summary>What is the PHP header function and where can it be used?</summary>
+
+- It can be used to create custom HTTP headers.
+- It usually used on the first line of a script ( eg to force a download ).
+</details>
+
+<details>
+<summary>What does it mean that php functions are first class citizens?</summary>
+
+- Can be passed as a paremeter to a function
+```php
+function bar(){
+	return 1;
+}
+
+function foo(bar){
+	//etc
+}
+```
+
+- Can be returned by a function
+```php
+return function(){$a = 967 + 1;};
+```
+
+- Can be assigned to a variable
+```php
+function foo(){
+
+}
+
+$a = foo;
+```
+</details>
 ## Long Questions
