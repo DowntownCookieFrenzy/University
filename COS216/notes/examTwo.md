@@ -19,8 +19,8 @@ They can be used for persistent logins or maybe caching user preferences.
 </details><br>
 Name two attributes of a cookie:
 <details>
-* Secure
-* HTTPOnly
+* Secure<br>
+* HTTPOnly<br>
 </details><br>
 </summary>
 
