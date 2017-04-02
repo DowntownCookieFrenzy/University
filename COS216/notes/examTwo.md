@@ -177,5 +177,12 @@ function foo($value){
 Public
 </details>
 
+<details>
+<summary>Explain the way in which a class can access it's members</summary>
+
+- `self::`     (Assuming the member is static)
+- `$this->`    (Assuming the member is not static)
+</details>
+
 
 ## Long Questions
