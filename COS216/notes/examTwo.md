@@ -354,9 +354,7 @@ RIGHT JOIN Advisor A ON S.Advisor_ID = A.Advisor_ID
 
 <details>
 <summary>
-
 Provide the missing text needed for the locations marked with stars in the `HTML`
-
 </summary>
 
 1. `navbar navbar-inverse`
