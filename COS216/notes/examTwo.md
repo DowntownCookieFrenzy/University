@@ -78,8 +78,8 @@ Typehints are keywords for specifying types of arguments inside a function proto
 
 
 <details>
-<summary>Which superglobal contains Get, Post and cookie data?</summary>
 ```php
 $_REQUEST
 ```
+<summary>Which superglobal contains Get, Post and cookie data?</summary>
 </details>
