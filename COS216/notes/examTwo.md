@@ -325,7 +325,7 @@ It will output: wot?
 
 <details>
 <summary>What are the main differences between php and javascript</summary?>
-<img src="https://www.google.co.za/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiIleLH74XTAhWJtRQKHfPtDIIQjRwIBw&url=https%3A%2F%2Fwww.slideshare.net%2Fhussulinux%2Fphp-training-module-1&psig=AFQjCNEw2lpdwIFBPKMn76shzyjr4C4Bug&ust=1491225885807502">
+![ThomasSingHeeltyd]("https://www.google.co.za/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiIleLH74XTAhWJtRQKHfPtDIIQjRwIBw&url=https%3A%2F%2Fwww.slideshare.net%2Fhussulinux%2Fphp-training-module-1&psig=AFQjCNEw2lpdwIFBPKMn76shzyjr4C4Bug&ust=1491225885807502">)
 </details>
 
 
