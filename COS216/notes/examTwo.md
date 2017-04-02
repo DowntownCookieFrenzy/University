@@ -202,4 +202,79 @@ class cc {
 PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.
 </details>
 
+<details>
+<summary>Which two structures can be used to simulate multiple inheritance?</summary>
+
+- Interfaces
+- Traits
+</details>
+
+<details>
+<summary>Draw differences between Traits,Interfaces and Abstract Classes</summary>
+
+### Interfaces
+- Allows you to specify a list of methods that a class must implement.
+- Method, Signatures and Implementation
+```php
+interface IMyInterface{
+	const INTERFACE_CONSTANT_1 = 1;
+	const INTERFACE_CONSTANT_2 = 'a string';
+ 
+	public function method_1();
+	public function method_2();
+}
+
+class MyClass implements IMyInterface{
+	public function method_1(){
+		// method 1 implementation	
+	}
+	public function method_2(){
+		// method 2 implementation
+	}
+}
+```
+
+### Traits
+- Much like interfaces and cannot be; A group of methods that you include within another class.
+- Method signatures and constants.
+```php
+trait Sharable {
+ 
+  public function share($item)
+  {
+    return 'share this item';
+  }
+ 
+}
+
+class Post {
+ 
+  use Sharable;
+ 
+}
+ 
+class Comment {
+ 
+  use Sharable;
+ 
+}
+```
+
+### Abstract Classes
+- Can be defined but never instansiated.
+- Methods, signatures, implementation, attributes and constants.
+```php
+abstract class Maths{
+	public function sum($a, $b){
+		return $a + $b;
+	}
+
+	public function diff($a, $b){
+		return $a - $b;
+	}
+}
+```
+
+</details>
+
 ## Long Questions
