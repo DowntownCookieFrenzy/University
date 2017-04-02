@@ -296,6 +296,7 @@ class C extends A{
 $obj = new C();
 $obj->foo();
 ```
+
 It will output: wot?
 
 </details>
