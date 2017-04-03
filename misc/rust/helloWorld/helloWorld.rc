@@ -1,0 +1,24 @@
+fn main(){
+	// println is a macro.
+	println!("Hello world!");
+	
+	let a: i32 = 968; // Create an integer and assign the vallue 968 to it.
+	println!("a is {}", a);
+
+	let b: i32 = 70;
+	println!("b is {}; a is {};", b, a);
+
+	// let mut i = 0i32;
+	for i in 0..10{
+		println!("{}",i);
+	}
+	
+	println!("Vectors!");
+	// vectors
+	let mut vec: Vec<i32> = vec![1,2,3,4,5];
+	for i in 0..vec.len(){
+		println!("{}",vec[i]);
+	}
+
+	(0); // This is a return value
+}

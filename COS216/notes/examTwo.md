@@ -96,7 +96,7 @@ Document Object Model
 <summary>What are the storage limits for Cookie and DOM storage respectively?</summary>
 
 - Cookie: 4Kb
-- DOM: 50MB
+- DOM: 10MB or 5MB depending on the browser.
 
 </details>
 
