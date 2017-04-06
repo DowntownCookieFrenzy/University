@@ -1,0 +1,9 @@
+[package]
+name = "simpleGet"
+version = "0.1.0"
+authors = ["RagingGrim <armandconnor.duplooy@gmail.com>"]
+
+[dependencies]
+
+# [dependencies.curl]
+# git = "https://github.com/alexcrichton/curl-rust"
