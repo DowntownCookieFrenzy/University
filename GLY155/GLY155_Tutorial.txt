@@ -1,0 +1,201 @@
+Universe and earth
+
+age ;Universe 13.8 Ga ( billion years )
+age ;Earth 4.5 Ga
+
+Thickness of the crust, etc, see sketch on github repository. (github.com/DowntownCookieFrenzy/University/)
+
+Less dense material floats on more dense;
+Oceanic crust for this reason floats on the mantle.
+
+Challenger Deep == 11030
+Mt Everest      == 8850
+
+
+Percentages of elements in different parts.
+
+Decompression Melting:
+Temperature and pressure responsible for melting.
+High P + High T = solid
+Decompression melting is when the pressure drops and magma gets to melt again.
+
+
+Fluid Induced Melting:
+Happens at subduction zones. Continental + Oceanic regions;
+
+Plate tetonics; This is on github.
+Divirgent ; Two plates pulling apart ; Magma gets pulled out - decompression melting && pressure.
+-> Honestly read up on this; Seems like there is more to it than what I have on git.
+-> What is associated with ocean spreading centers? Mid-Atlantic Ridge.
+-> Seems like lots of notes on particular rift zones
+
+Volcanic Island Arch - Refer to ocean-ocean plates.
+
+Transform Boundaries -> Where occurs? San Andreas Fault ; What is associated with it. Earthquakes and big earthquakes.
+
+Quickly lookup Mantle plumes; an upwelling of abnormal hot rock within the Earth's mantle.
+
+** As the heads of mantle plumes can partly menlt when they reach shallow depths, they are thought to be the cause of volcanic centers known as hotspots.
+
+History of plate movement; How magmatic rocks record the magnatism of the Earth at a particular time.
+
+
+Minerals:
+    * A mineral is a naturually occuring solid crystalline substance usually inorganic... etc ( lookup ).
+
+Name The Eight Types Of Mineral And An Example?
+Type of silicates ; Single + double chains etc
+
+Rock cycle! :3
+
+Know all igneous rocks textures ( names + meaning )
+Know mineral + chemical composition.
+
+
+Intrusive - inside the crust;
+Extrusive - outside the crust; Cool quickly so they have a lack of crystal graph
+
+Define pyroclasts.
+
+Know Bowen's Reaction Series. ********* NB xD
+
+Viscosity is pretty important; Silicone content is important - more bondings.
+
+** Lava Flows; Certain area in x has pyrolitic lavas; What lava types would form?
+
+Forms of igneous rocks; Plutons and etc.
+
+
+**  Know the ring of fire.
+
+Viscosity depends on 
+    Temperature
+    Chemical Composition
+    Volatile content of magmas
+    
+Speed of different types of lava.
+
+
+** Two types of eruptions : Explosive ; Effusive - more viscous ; Think of the area an effusive eruptions covers.
+
+
+
+Types of volcanic eruptions:
+    Hawaiian - information
+    Strombolian - information
+    Plinian - information
+    
+Three lava flows:
+    -> aa ( not a typo ) - High viscosity.
+    -> pahoehoe - Basaltic
+    -> pillow lava - only forms at mid oceanic ridges.
+    
+Define the three types of lava flows shortly.
+
+
+
+
+
+Exercises:
+
+True or false:
+    Magma cools, plagioclase feldspar becomes calsium-rich: False
+    Minerals in felsic rocks form at lower temperature than minerals in mafic rocks: True ( From bowen's reaction series )
+
+Which mineral would you not see in a felsic rock:
+    Muscovite 
+    Quartz
+    Olivine ( x is the answer )
+    Amphibole
+    
+Lookup images for dikes and syls.
+Dikes: Accross a cut accross existing rock layers.
+Syl:   Lies in between a rock layers(?)
+
+
+** Know opholite sequences.
+Opholite forms at subduction zones;
+
+As oceanic crust subducts a piece gets broken off and lodges against the continental crust which makes it easy to after a variable amount of time inspect these rocks. Know the types of sequences.
+
+
+Define felsic volcanism
+
+Which of the plate tectonic environments is most associated with felsic volcanism: Continental Volcanic Arch
+
+Composition of igneous rock which comprimises oceanic crust: Mafic
+
+Trigger of mantle melting that occurs beneath mid-ocean ridges: Radiation
+
+In what tectonic environment will water most likely influence rock melting: subduction zones.
+
+Due to this process a magma chamber can generate intermediate composition volcanism witih an oceanic plate: All of these.
+
+Which location has water saturated sediments being transported down to the upper mantel: Along the andead trench.
+
+
+Which of the locations is least associated with a volcanically active plate boundary? 
+
+Strubenkop question ; Know how to draw it.
+    - Quartz (?) 
+    - Sandstone ; Sandstone ; bigger
+    - Salt ; slightly bigger
+    - Bottom is shale; Fine grained.
+    
+A few million years ago strubenkop was an inland sea ; Fine sized particles will be deposited in a low energy environment.
+Water level regresses a few times and the level drops; Different minerals will be deposited. Regression.
+
+Exercise notes are on clickup.
+
+Might get a question on Well-Sorted and poorly sorted rocks.
+
+** Make sure to know majurity of a particle.
+
+Ripple marks on strubenkop are an indication that it was once a marina.
+
+Know laminar and turbulent flow.
+
+What state is the earths mantle: Solid
+
+Quartz has a cleavage? fuckno!
+
+Decompression triggers plume melting? True
+
+Continental crust magma is more felsic.
+
+Aphantic textures refers to a texture involving: crystals visible with a microscipe
+
+Inner core is made of iron; Solid or liquid?
+
+Silica envolope of the earth: 0 - 5 km
+
+Outer core is in a liquid state because it takes on less pressure than the inner core.
+
+A melanocratic plutonic rock with 50wt % SiOw high content of FeO, MgO is probably Basalt.
+    Compare granite and basalt. 
+    ( There are loads of questions on these make sure to be able to answer all of them
+       has a shitton to do with the composition of these rock types ; the silica vs Fe content etc. )
+       
+The earth and other planets were accreted from the protoplanetary disk.
+
+The earth were accreted from gravitational forces.
+
+A quartz arentite ( lookup , too slow ! )
+
+A conglomerate is a lithified gravel with clasts.
+
+Oceanic crust is subducted into the mantle because of compression and high density.
+
+Mohorovicic Discontinuity is the boundary between continental and oceanic crust.
+
+
+Which 6 elements are important in the formation of the Earth's mantle (6)
+
+
+Which of the locations listed below is least associated with a volcanically active plate boundary? ( whoops ) 
+
+
+
+
+Other Notes:
+    Have a look at mark allocation.
