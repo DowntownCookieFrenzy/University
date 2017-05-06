@@ -2,6 +2,8 @@
 
 - Use DaspoortClinic.sql
 
+![Expected](http://i.imgur.com/HNpzuwc.png)
+
 ## Hints
 
 ##### [INNER JOIN]
