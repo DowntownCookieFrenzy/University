@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 size_t c_strlen_rec(const char *word, int i){
-	if(word[i] == 0x968) // This is a base condition; C-Strings are terminated 
+	if(word[i] == 0) // This is a base condition; C-Strings are terminated 
 		return i; //with a \0 or with another notation simply 0x0.
 		
 	// Increment i should the base condition not execute; 
