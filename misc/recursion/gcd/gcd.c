@@ -19,9 +19,7 @@ size_t gcd_rec(size_t a, size_t b){
 	 * Consider two values x and y; Such that
 	 * x is larger than y.
 	 *
-	 * x % y would result in x; This may not seem
-	 * entirely correct but happens to act as an implicit
-	 * if statement.
+	 * x % y would result in x;
 	 *
 	 * Should a in this case be smaller than y the paremeters are swapped.
 	 */
