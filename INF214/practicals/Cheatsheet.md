@@ -26,19 +26,38 @@ Sends a batch of statements to the server. If it doesn't want to work, try a GO.
 
 ### Create
 
-To create a database.
+#### Database
 
 ```sql
-
+USE master;
+GO
+CREATE DATABASE Sales
+ON
+( NAME = Sales_dat,
+    FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\saledat.mdf',
+    SIZE = 10,
+    MAXSIZE = 50,
+    FILEGROWTH = 5 )
+LOG ON
+( NAME = Sales_log,
+    FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\salelog.ldf',
+    SIZE = 5MB,
+    MAXSIZE = 25MB,
+    FILEGROWTH = 5MB ) ;
+GO
 ```
 
-To create a table.
+
+#### Table
+
+- `IDENTITY(1,1)` - Start at ID `1`, increment by `1`
+    - If not given then the the ID needs to be specified when inserting
 
 ```sql
 USE db GO
 
 CREATE TABLE Users(
-	ID INT PRIMARY KEY NOT NULL,
+	ID INT PRIMARY KEY NOT NULL IDENTITY(1,1),
 	NAME VARCHAR(20) NOT NULL,
 	SALARY DECIMAL(18, 2)
 )
@@ -49,13 +68,13 @@ To create more tables and a foreign key.
 
 ```sql
 CREATE TABLE artists (
-  id    INTEGER PRIMARY KEY, 
+  id    INTEGER PRIMARY KEY,
   name  TEXT
 )
 
 CREATE TABLE tracks (
-  traid     INTEGER, 
-  title   TEXT, 
+  traid     INTEGER,
+  title   TEXT,
   artist INTEGER,
   FOREIGN KEY(artist) REFERENCES artists(id)
 )
@@ -66,8 +85,8 @@ CREATE TABLE tracks (
 
 To insert ( basic )
 
-Please note that because the primary key is not AUTO_INCREMENT
-you have to specify the id.
+- If `IDENTIY(1,1)` is not specified with the `PRIMARY KEY` constraint then the ID needs to be specified when inserting
+
 
 ```sql
 INSERT INTO artists VALUES (1, 'John Bucket')
@@ -101,7 +120,7 @@ DELETE FROM artists where id = 9 OR name LIKE 'John Bucket'
 Wildcards
 
 ```sql
-WHERE Name LIKE 'a%' ==> a* 
+WHERE Name LIKE 'a%' ==> a*
 WHERE Name LIKE '%a' ==> *a
 WHERE Name LIKE '%or%' ==> *or*
 WHERE NAME LIKE '_r%' ==> ?r*
