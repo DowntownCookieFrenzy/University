@@ -65,6 +65,7 @@ CREATE TABLE tracks (
 ### Insert
 
 To insert ( basic )
+
 Please note that because the primary key is not AUTO_INCREMENT
 you have to specify the id.
 
@@ -74,5 +75,11 @@ INSERT INTO artists VALUES (1, 'John Bucket')
 To insert ( specifying fields )
 
 ```sql
-INSERT INTO artists (name, id) VALUES ('John Bucket', 1)
+INSERT INTO artists (name, id) VALUES ('John Bucket', 10)
+```
+
+To insert ( foreign keys )
+
+```sql
+INSERT INTO tracks VALUES (1, 'someTitle', 10)
 ```
