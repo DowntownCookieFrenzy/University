@@ -98,3 +98,12 @@ Multiple conditions and string comparisons.
 ```sql
 DELETE FROM artists where id = 9 OR name LIKE 'John Bucket'
 ```
+
+Wildcards
+
+```sql
+WHERE Name LIKE 'a%' ==> a* 
+WHERE Name LIKE '%a' ==> *a
+WHERE Name LIKE '%or%' ==> *or*
+WHERE NAME LIKE '_r%' ==> ?r*
+```
