@@ -107,3 +107,26 @@ WHERE Name LIKE '%a' ==> *a
 WHERE Name LIKE '%or%' ==> *or*
 WHERE NAME LIKE '_r%' ==> ?r*
 ```
+
+### Alter
+
+
+### Select
+
+Select operates on tables and conditions
+
+```sql
+SELECT * FROM artists
+SELECT * FROM artists WHERE id=1
+SELECT name FROM artists WHERE id=2
+```
+
+Select with tables as alias
+```sql
+SELECT a.name FROM artists AS a
+SELECT a.name, t.title FROM artists AS a, tracks AS t
+```
+
+### Join
+
+Join has slightly more theory than all the rest.
