@@ -74,5 +74,5 @@ INSERT INTO artists VALUES (1, 'John Bucket')
 To insert ( specifying fields )
 
 ```sql
-
+INSERT INTO artists (name, id) VALUES ('John Bucket', 1)
 ```
