@@ -11,6 +11,7 @@
 * Delete
 * Alter
 * Join
+* Select
 
 ### Use
 
@@ -82,4 +83,18 @@ To insert ( foreign keys )
 
 ```sql
 INSERT INTO tracks VALUES (1, 'someTitle', 10)
+```
+
+### Delete
+
+Deletion occurs with conditions.
+
+```sql
+DELETE FROM artist WHERE id = 1
+```
+
+Multiple conditions and string comparisons.
+
+```sql
+DELETE FROM artists where id = 9 OR name LIKE 'John Bucket'
 ```
