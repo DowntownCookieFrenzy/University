@@ -9,7 +9,6 @@
 * Create
 * Insert
 * Delete
-* Alter
 * Join
 * Select
 
@@ -107,8 +106,6 @@ WHERE Name LIKE '%a' ==> *a
 WHERE Name LIKE '%or%' ==> *or*
 WHERE NAME LIKE '_r%' ==> ?r*
 ```
-
-### Alter
 
 
 ### Select
