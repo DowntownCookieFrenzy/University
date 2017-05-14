@@ -148,3 +148,51 @@ SELECT a.name, t.title FROM artists AS a, tracks AS t
 Join has slightly more theory than all the rest.
 
 ![Joins](https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg)
+
+Inner join;
+
+This statement selects all users which take a particular course.
+```sql
+SELECT user.name, course.name
+FROM user
+INNER JOIN course ON user.course = course.id;
+```
+
+Left join;
+
+This statement selects all users which are registered even if they do not 
+have a particular course ( zero courses too ).
+
+```sql
+SELECT user.name, course.name
+FROM user
+LEFT JOIN course ON user.course = course.id;
+```
+
+Right join;
+
+Selects all the courses even if nobody enrolled for them.
+
+```sql
+SELECT user.name, course.name
+FROM user
+RIGHT JOIN course ON user.course = course.id;
+```
+
+Outer join;
+
+Selects all records in both tables even if there is no match, if this
+case occurs the missing side will contain NULL. There is no outer join in
+mysql but it can be worked around by abusing UNION on a LEFT and RIGHT JOIN
+
+```sql
+SELECT user.name, course.name
+FROM user
+LEFT JOIN course on user.course = course.id
+
+UNION
+
+SELECT user.name, course.name
+FROM user
+RIGHT JOIN course on user.course = course.id;
+```
