@@ -10,7 +10,7 @@ impl Point{
 }
 
 fn main() {
-    println!("Hello, world!");
+    	println!("Hello, world!");
 	let p = Point::new(10,3);
 	println!("Point x:{} y:{}", p.x, p.y);
 }
