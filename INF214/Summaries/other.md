@@ -48,3 +48,8 @@ Each computer must have a hard drive, and one hard drive may or may not be insta
 
 #### Dashed half and dashed half - relationship is optional.
 Each computer may or may not have a hard drive, and one hard drive may or may not be installed into one computer.
+
+# Backup Levels (p 387, v9)
+- **Full Backup** - All objects in database are backed up
+- **Differential Backup** - Only objects that have been modifed since the last Full Backup are backed up
+- **Transactional Log Backup** - Only backs up the transactional log operations that are not refected in a previous backup copy of the database
